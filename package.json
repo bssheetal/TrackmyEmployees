@@ -1,0 +1,27 @@
+{
+  "name": "trackmyemployees",
+  "version": "1.0.0",
+  "description": "deploying to heroku",
+  "main": "index.js",
+  "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "console.table": "^0.10.0",
+    "inquirer": "^7.1.0",
+    "mysql": "^2.18.1",
+    "npm-start-command": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bssheetal/TrackmyEmployees.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bssheetal/TrackmyEmployees/issues"
+  },
+  "homepage": "https://github.com/bssheetal/TrackmyEmployees#readme"
+}

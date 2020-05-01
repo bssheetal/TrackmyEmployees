@@ -115,10 +115,12 @@ async function loadMainPrompts() {
 }
 
 async function viewEmployees() {
+  
     const employees = await db.findAllEmployees();
   
     console.log("\n");
     console.table(employees);
+    
   
     loadMainPrompts();
   }
